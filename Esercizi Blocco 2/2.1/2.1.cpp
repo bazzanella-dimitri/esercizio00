@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int numero; // inizializzo numero
-    int sum=1; // inizializzo sommatoria a 1 
+    int sum=0; // inizializzo sommatoria a 1 
 
     // faccio ciclo for di 10  cicli, aumentando ad ogni ciclo i di 1 
     for (int i = 0; i < 10; i++)
