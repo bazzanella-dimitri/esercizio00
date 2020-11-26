@@ -2,15 +2,19 @@
 
 using namespace std;
 
+
 int main() {
 
-    char caratteri;
-    char a[100];
+    char frase;
+    char a[99];
+    int indice;
 
-    for (int i = 0; i < 100; i++)
-    {
-        cout << "Inserisci la tua frase: ";
-        cin << caratteri;
-    }
+    
+    cout << "Inserisci la tua frase: ";
+    cin >> a;
+
+    cin >> indice;
+ 
+    cout << "Ecco il tuo carattere: "<< a[indice-1];
     return 0;
 }

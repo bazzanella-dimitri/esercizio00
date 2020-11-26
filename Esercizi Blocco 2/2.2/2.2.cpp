@@ -5,22 +5,24 @@ using namespace std;
 
 int main() {
 
-    int massimoCifre;
-    int somma=0;
-    int numero;
+   int somma=0;
+   int numero;
+   int size;
 
-    cout << "Quante cifre vuoi inserire? ";
-    cin >> massimoCifre;
+   cout << "Quanti numeri vuoi sommare? ";
+   cin >> size;
+
+   int a[size];
 
 
-     for (int i=0; i < massimoCifre; i++)
-     {
-        cout << "Inserisci "<< (i+1) <<"o numero: ";
-        cin >> numero;
-        somma+= numero;
-     }
+   for (int i=0; i < size; i++)
+   {
+      cout << "Inserisci "<< (i+1) <<"o numero: ";
+      cin >> numero;
+      somma+= numero;
+   }
      
-     cout << "La somma dei numeri equivale a: " << somma;
-     return 0;
+   cout << "La somma dei numeri equivale a: " << somma;
+   return 0;
         
 }
