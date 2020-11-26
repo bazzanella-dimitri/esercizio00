@@ -4,7 +4,7 @@ using namespace std;
   
 
 int main() {
-    
+
     int massimoCifre;
     int somma=0;
     int numero;
@@ -12,11 +12,10 @@ int main() {
     cout << "Quante cifre vuoi inserire? ";
     cin >> massimoCifre;
 
-    int a[massimoCifre];
 
      for (int i=0; i < massimoCifre; i++)
      {
-        cout << "Inserisci "<< (i+1) <<"° numero"<< endl;
+        cout << "Inserisci "<< (i+1) <<"o numero: ";
         cin >> numero;
         somma+= numero;
      }
